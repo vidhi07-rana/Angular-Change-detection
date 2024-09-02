@@ -1,0 +1,14 @@
+ul{
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between the buttons and the heading */
+    background-color: rgb(65, 59, 59); /* White background for the container */
+    padding: 40px; /* Padding inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 400px; /* Fixed width for the card */
+    border: 2px solid yellowgreen;
+  
+}
+
+li {
+    list-style-type: none; /* Just in case */
+  }

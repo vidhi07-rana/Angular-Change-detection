@@ -1,0 +1,61 @@
+body {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.form-container {
+    display: flex; /* Flexbox for vertical alignment */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    background-color: rgb(65, 59, 59); /* Dark background for the form */
+    padding: 50px; /* Padding inside the form container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 438px; /* Fixed width for the form */
+    border: 2px solid rgb(255, 0, 115); /* Pink border */
+}
+
+label {
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 18px; /* Font size */
+    color: white; /* White text color */
+    margin-bottom: 10px; /* Space below the label */
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Full width of the container */
+}
+
+input[type="text"] {
+    width: 100%; /* Full width of the input */
+    padding: 10px; /* Padding inside the input */
+    margin-bottom: 20px; /* Space below the input */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+    font-size: 16px; /* Font size */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.button-container {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center button horizontally */
+    width: 100%; /* Full width of the form */
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+    margin-left: 300px;
+
+}
+
+button:hover {
+    background-color: rgb(98, 98, 10); /* Darker green on hover */
+}

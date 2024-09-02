@@ -1,0 +1,11 @@
+.spacing {
+    margin-bottom: 20px;
+  }
+  app-counter {
+    margin-bottom: 20px; /* Adjust the value as needed */
+  }
+  
+  app-message {
+    margin-top: 20px; /* Adjust the value as needed */
+  }
+  
