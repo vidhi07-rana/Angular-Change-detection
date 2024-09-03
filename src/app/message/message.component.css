@@ -1,0 +1,25 @@
+body {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(65, 59, 59); /* Dark background for the card */
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 2px solid rgb(255, 47, 0); /* Pink border */
+    width: 450px; /* Fixed width for the card */
+    gap: 20px; /* Space between the components */
+}
+
+.debug-output {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}

@@ -11,4 +11,21 @@ ul{
 
 li {
     list-style-type: none; /* Just in case */
+    align-items: center; /* Center items vertically */
+    margin-left: 165px;
+    
+
   }
+  .form-container > * {
+    margin-bottom: 20px; /* Add space between each component inside the card */
+    width: 100%; /* Ensure full width within the container */
+}
+
+.form-container > *:last-child {
+    margin-bottom: 0; /* Remove margin after the last child */
+}
+
+.debug-output {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}

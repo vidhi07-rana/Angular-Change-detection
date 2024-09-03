@@ -1,5 +1,7 @@
 <ul>
-    @for(message of messages; track message){
-        <li>{{message}}</li>
+    @for(msg of messages$ | async ; track msg){
+        <li>{{msg}}</li>
     }
+    <p class="debug-output">{{debugOutput}}</p>
+
 </ul>

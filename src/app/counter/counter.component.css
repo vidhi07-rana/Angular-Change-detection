@@ -15,7 +15,7 @@ body {
     padding: 70px; /* Padding inside the card */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     width: 400px; /* Fixed width for the card */
-    border: 1px solid orange;
+    border: 3px solid orange;
   }
   
   .card-content {
@@ -41,6 +41,7 @@ gap: 20px;
     font-size: 16px; /* Font size */
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s ease; /* Smooth transition for background color */
+    border-radius:  10px;
   }
   
   button:hover {
@@ -68,7 +69,7 @@ gap: 20px;
     padding: 40px; /* Padding inside the container */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     width: 400px; /* Fixed width for the card */
-    border: 2px solid rgb(255, 0, 115);
+    border: 3px solid rgb(255, 0, 115);
 
 
   }

@@ -12,4 +12,9 @@ import { MessageComponent } from "./message/message.component";
 })
 export class AppComponent {
   title = 'change-Detection';
+
+  get debugOutput(){
+    console.log('[Component] "debugOutput" binding re-evaluated. ')
+    return 'Component Debug Output'
+  }
 }
